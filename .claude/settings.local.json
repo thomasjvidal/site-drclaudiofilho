@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --version)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Frame-1707479056-1.webp\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Frame-1707479056-2.webp\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Frame-1707479056.jpg\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Frame-1707479057-1.webp\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Frame-1707479057.jpg\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Frame-1707479058-1.jpg\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Group-1-5.svg\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Group-1707478617.webp\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Group-1707478617-1.png\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Group-1707478622-2.webp\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Imagem-7-1.webp\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Imagem-8.webp\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Rectangle-240662540-1.webp\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/BG-hero-7.jpg\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/BG-hero-8-scaled.jpg\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Div-cor.png\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/08/Sessao-4-_.webp\")",
+      "Bash(curl -s -O \"https://marcosportes.com.br/wp-content/webp-express/webp-images/uploads/2025/08/Frame-1171275184-1.png.webp\" -O \"https://marcosportes.com.br/wp-content/webp-express/webp-images/uploads/2025/08/Group-1707478448-5-1.png.webp\" -O \"https://marcosportes.com.br/wp-content/webp-express/webp-images/uploads/2025/08/Group-1707478448-5-2.png.webp\" -O \"https://marcosportes.com.br/wp-content/webp-express/webp-images/uploads/2025/08/Group-1707478448-5.png.webp\" -O \"https://marcosportes.com.br/wp-content/webp-express/webp-images/uploads/2025/08/Rectangle-87-6.png.webp\" -O \"https://marcosportes.com.br/wp-content/webp-express/webp-images/uploads/2025/08/Seta-2.png.webp\" -O \"https://marcosportes.com.br/wp-content/webp-express/webp-images/uploads/2025/08/Vector-4.png.webp\" -O \"https://marcosportes.com.br/wp-content/webp-express/webp-images/uploads/2025/08/Vector-6.png.webp\" -O \"https://marcosportes.com.br/wp-content/webp-express/webp-images/uploads/2025/08/bullet-1-1.png.webp\" -O \"https://marcosportes.com.br/wp-content/webp-express/webp-images/uploads/2025/08/bullet-2-1.png.webp\" -O \"https://marcosportes.com.br/wp-content/webp-express/webp-images/uploads/2025/08/caneta.png.webp\" -O \"https://marcosportes.com.br/wp-content/webp-express/webp-images/uploads/2025/08/modulacao.png.webp\" -O \"https://marcosportes.com.br/wp-content/webp-express/webp-images/uploads/2025/08/roda.png.webp\")",
+      "Bash(curl -s -O \"https://marcosportes.com.br/wp-content/uploads/2025/12/Frame-1707479059-1.jpg\" -O \"https://marcosportes.com.br/wp-content/uploads/2025/12/Frame-1707479060.jpg\")",
+      "Bash(xargs grep:*)",
+      "Bash(grep -l \"Frame-1707479059\\\\|Frame-1707479060\\\\|BG-hero\\\\|Div-cor\\\\|Sessao-4\\\\|Group-1707478620\\\\|Group-1707478621\\\\|Group-1707478622\\\\|Group-1707478617\\\\|Frame-1707479056\\\\|Frame-1707479057\\\\|Frame-1707479058\" \"C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DrClaudio\\\\css\"/*.css)",
+      "Bash(python3 -c \":*)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\milen\\\\OneDrive\\\\Ambiente de Trabalho\\\\LP-DrClaudio\\\\js\\\\wp\")",
+      "Bash(curl -s -L -o \"jquery.min.js\" \"https://marcosportes.com.br/wp-includes/js/jquery/jquery.min.js\")",
+      "Bash(curl -s -L -o \"jquery-migrate.min.js\" \"https://marcosportes.com.br/wp-includes/js/jquery/jquery-migrate.min.js\")",
+      "Bash(curl -s -L -o \"jquery-ui-core.min.js\" \"https://marcosportes.com.br/wp-includes/js/jquery/ui/core.min.js\")",
+      "Bash(curl -s -L -o \"hooks.min.js\" \"https://marcosportes.com.br/wp-includes/js/dist/hooks.min.js\")",
+      "Bash(curl -s -L -o \"elpro-webpack.runtime.min.js\" \"https://marcosportes.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js\")",
+      "Bash(curl -s -L -o \"elpro-frontend.min.js\" \"https://marcosportes.com.br/wp-content/plugins/elementor-pro/assets/js/frontend.min.js\")",
+      "Bash(curl -s -L -o \"elpro-elements-handlers.min.js\" \"https://marcosportes.com.br/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js\")",
+      "Bash(curl -s -L -o \"hello-frontend.js\" \"https://marcosportes.com.br/wp-content/cache/min/1/wp-content/themes/hello-elementor/assets/js/hello-frontend.js\")",
+      "Bash(netstat -ano)",
+      "Bash(findstr :3000)",
+      "Bash(tasklist /FI \"PID eq 22740\")",
+      "Bash(tasklist)",
+      "Bash(taskkill //F //PID 22740)",
+      "Bash(findstr \"LISTEN\")",
+      "Bash(findstr \"python\")",
+      "Bash(taskkill /PID 8236 /F)",
+      "Bash(cmd /c \"taskkill /PID 8236 /F\")",
+      "Bash(powershell -Command \"Stop-Process -Id 8236 -Force; Write-Host 'Killed 8236'\")",
+      "Bash(python3 -c ':*)"
+    ]
+  }
+}
