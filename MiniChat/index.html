@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -430,6 +430,18 @@
             box-shadow: 0 10px 25px rgba(37, 211, 102, 0.35);
         }
     </style>
+<script>
+(function(){
+  var JP="https://josephpay-production.up.railway.app";
+  var uid="5eb41f19-cdb0-4502-a8df-120f535061e8";
+  var p=window.location.pathname;
+  var ref=document.referrer;
+  var q=new URLSearchParams(window.location.search);
+  var src=q.get("utm_source")||(ref.includes("instagram")?"instagram":ref.includes("google")?"google":ref.includes("facebook")||ref.includes("fb.")?"facebook":ref.includes("whatsapp")?"whatsapp":ref?"referral":"direto");
+  var dev=/Mobi|Android/i.test(navigator.userAgent)?"mobile":"desktop";
+  fetch(JP+"/api/track/visit",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({user_id:uid,domain:window.location.hostname,page:p,referrer:ref,source:src,device:dev})}).catch(function(){});
+})();
+</script>
 </head>
 <body>
 
@@ -495,7 +507,7 @@
 
 <script>
     // Configuração do WhatsApp do Claudio Filho
-    const WHATSAPP_NUMBER = "553298255888";
+    const WHATSAPP_NUMBER = "5532984484852";
     
     const chatMessages = document.getElementById('chatMessages');
     const textInput = document.getElementById('textInput');
